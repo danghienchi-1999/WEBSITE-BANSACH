@@ -13,7 +13,7 @@ if ($action=='them')
     if ($masach!='')
     {
         if (isset($tam[$masach]))
-            $tam[$masach] -= $soluong;
+            $tam[$masach] += $soluong;
         else 
             $tam[$masach]= $soluong;
     }
@@ -35,7 +35,7 @@ if($action=='giam')
      if ($masach!='')
     {
         if (isset($tam[$masach]))
-            $tam[$masach] += 1;
+            $tam[$masach] -= 1;
         else 
             $tam[$masach]-= 0;
         if($tam[$masach]==0)
