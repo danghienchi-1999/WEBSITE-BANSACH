@@ -43,7 +43,7 @@ foreach($data as $key=>$value)
 	?>
 	<tr>
 		<td><?php echo $value['matacgia']?></td>
-		<td><?php echo $value['hotentacgia']?></td>
+		<td><?php echo $value['hoten']?></td>
 			<td>
 			<a href="xoa.php?matacgia=<?php echo $value['matacgia'] ?>">Xoá Tác Giả</a>
 
