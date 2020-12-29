@@ -31,7 +31,7 @@ $data=$stm->fetchAll();
 <div id="templatemo_container">
 <table border="1">
 <tr>
-	<td>Mã Lỗi</td>
+	<td>Mã Loại</td>
 	<td>Tên loại</td>
 	<td>Thao tác</td>
 	<td>Thao tác</td>
