@@ -47,7 +47,7 @@ session_start();
 <div id="templatemo_content_left"><?php include'subpage/content_left.php' ?></div>
 <div id="templatemo_content_left">
 		<h1>Đăng nhập</h1><br>
-		<form action="" method="get">
+		<form action="" method="post">
 			Tài Khoản <input type="text" name="taikhoan"><br><br><br>
 			Mật Khẩu <input type="password" name="matkhau"><br><br><br>
 			<input type="submit" name="dangnhap" value="Đăng Nhập">
